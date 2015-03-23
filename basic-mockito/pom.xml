@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mockito</groupId>
 	<artifactId>test</artifactId>
-	<name>basic-mockito</name>
+	<name>mockito-example-controller</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
