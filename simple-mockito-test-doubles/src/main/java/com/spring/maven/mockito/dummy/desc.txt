@@ -1,0 +1,6 @@
+
+
+Dummy objects are analogous to null objects, but a dummy object is not used by the code under test. 
+Null objects (as in the pattern) are used in the code under test and are actively
+interacted with, but they just produce zero behavior. If they weren't used, you'd just
+use an actual null value.

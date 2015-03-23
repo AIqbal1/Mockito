@@ -1,0 +1,5 @@
+
+
+Stubs help us to simulate these conditions. Stubs can also be programmed to return a
+hardcoded result; for example, a stubbed bank account object can return the account
+balance as $100.00.

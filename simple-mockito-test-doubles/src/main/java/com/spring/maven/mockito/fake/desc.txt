@@ -1,0 +1,17 @@
+
+
+A fake object is a test double with real logic (unlike stubs) and is much more
+simplified or cheaper in some way. Fake objects are working implementations. Mostly, the fake class extends the original
+class, but it usually performs hacking, which makes it unsuitable for production.
+
+examples:
+
+The real object cannot be instantiated, such as when the constructor reads a
+file, performs a JNDI lookup, and so on.
+
+The real object has slow methods; for example, a class might have a
+calculate () method that needs to be unit tested, but the calculate()
+method calls a load ()method to retrieve data from the database. The
+load() method needs a real database, and it takes time to retrieve data, so
+we need to bypass the load() method to unit test the calculate behavior.
+
